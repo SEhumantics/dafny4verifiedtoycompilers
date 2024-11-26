@@ -1,9 +1,10 @@
 [project]
-name = "dafny4semantics"
+name = "dafny4verifiedtoycompilers"
 version = "0.1.0"
-description = "Add your description here"
+description = "A few toy compilers written in Python and verified in Dafny."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "antlr4-python3-runtime>=4.13.2",
+    "dafnyruntimepython>=4.9.0",
 ]

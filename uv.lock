@@ -16,7 +16,20 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "antlr4-python3-runtime" },
+    { name = "dafnyruntimepython" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "antlr4-python3-runtime", specifier = ">=4.13.2" }]
+requires-dist = [
+    { name = "antlr4-python3-runtime", specifier = ">=4.13.2" },
+    { name = "dafnyruntimepython", specifier = ">=4.9.0" },
+]
+
+[[package]]
+name = "dafnyruntimepython"
+version = "4.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b2/cd/8ecd86fdde201bc1625a60760167faf655b72bd58da34aec785637f9655a/dafnyruntimepython-4.9.0.tar.gz", hash = "sha256:03a4c2dbbe45c13dc2c7dbefad01812367b3bb217a14b4b848d7e94ef5c08cee", size = 5433 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a6/40/a83edd6a0b0f1efd2bb94d3820b32e3dc4a8c3e08aaf9c6761098a4c6972/DafnyRuntimePython-4.9.0-py3-none-any.whl", hash = "sha256:c9cdcf127f5b6a4c6c9cf69016b9486318c3a6600e7f03fcbc621f6a5398479c", size = 5782 },
+]
