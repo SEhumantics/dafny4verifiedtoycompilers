@@ -1,3 +1,6 @@
+# "Testzone" folder for drafting
+testzone/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
